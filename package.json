@@ -1,0 +1,29 @@
+{
+  "name": "@dzo/cli",
+  "version": "1.0.0",
+  "description": "DZ 脚手架工具",
+  "bin": {
+    "dz": "index.js"
+  },
+  "main": "index.js",
+  "keywords": [
+    "@dzo/cli",
+    "@dzo",
+    "cli"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "sh publish.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "download-git-repo": "^1.1.0",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
