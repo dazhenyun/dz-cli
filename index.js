@@ -23,10 +23,10 @@ program.version('1.0.0', '-v, --version')
                 let branch;
                 switch (answers.template) {
                     case 'react项目开发模板':
-                        branch = "https://github.com:dazhenyun/react-template-project#master";
+                        branch = "https://github.com:dazhenyun/react-template-project#main";
                         break;
                     case 'react组件开发模板':
-                        branch = "https://github.com:dazhenyun/react-template-components#master";
+                        branch = "https://github.com:dazhenyun/react-template-components#main";
                         break;
                 }
                 inquirer.prompt([
