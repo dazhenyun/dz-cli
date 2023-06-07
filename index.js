@@ -17,7 +17,7 @@ program.version('1.0.0', '-v, --version')
                     type: 'list',
                     message: '请选择需要的模板:',
                     name: 'template',
-                    choices: ['react项目开发模板', 'react组件开发模板']
+                    choices: ['react项目开发模板', 'react组件开发模板', 'react数据大屏开发模板']
                 }
             ]).then((answers) => {
                 let branch;
@@ -27,6 +27,9 @@ program.version('1.0.0', '-v, --version')
                         break;
                     case 'react组件开发模板':
                         branch = "https://github.com:dazhenyun/react-template-components#main";
+                        break;
+					 case 'react数据大屏开发模板':
+                        branch = "https://github.com:dazhenyun/react-big-screen-template#master";
                         break;
                 }
                 inquirer.prompt([
